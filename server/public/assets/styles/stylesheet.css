@@ -1,3 +1,26 @@
 h1 {
   color: blue;
 }
+
+.parallax {
+  /*The image used*/
+  background-image: url("../../vendors/images/floodedforest.jpg");
+
+  /*Set a Specific height*/
+  height: 500px;
+
+  /*Parallax effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-content {
+  height: 1000px;
+  background-color: #666666;
+}
+.text-content p {
+  color: #ffffff;
+  font-size: 30px;
+}
