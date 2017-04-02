@@ -1,10 +1,17 @@
-h1 {
-  color: blue;
+body {
+  margin: 0;
+}
+
+/*IMAGES FOR PARALLAX*/
+#firstimage {
+  background-image: url("../../vendors/images/floodedforest.jpg");
+}
+#secondimage {
+  background-image: url("../../vendors/images/mossylog.jpg");
 }
 
 .parallax {
-  /*The image used*/
-  background-image: url("../../vendors/images/floodedforest.jpg");
+
 
   /*Set a Specific height*/
   height: 500px;
