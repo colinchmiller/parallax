@@ -14,7 +14,7 @@ body {
 
 
   /*Set a Specific height*/
-  height: 500px;
+  min-height: 500px;
 
   /*Parallax effect*/
   background-attachment: fixed;
@@ -24,7 +24,8 @@ body {
 }
 
 .text-content {
-  height: 1000px;
+  margin-top: -3%;
+  height: 700px;
   background-color: #666666;
 }
 .text-content p {
