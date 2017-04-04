@@ -2,7 +2,7 @@
 <html ng-app="mainApp">
   <head>
     <meta charset="utf-8">
-    <title>Angular Template</title>
+    <title>Parallax Scrolling</title>
     <link rel="stylesheet" href="./assets/styles/stylesheet.css">
     <script type="text/javascript" src="./vendors/angular.min.js"></script>
     <script type="text/javascript" src=./assets/scripts/mainApp.js></script>
@@ -11,15 +11,21 @@
   <body ng-controller="MainController">
     <h1>Parallax</h1>
     <div class="parallax" id="firstimage"></div>
+
     <div class="text-content">
-      <p>The content above should be hidden behind this as the scrolling occurs.</p>
+      <p>The above above is hidden behind this content block as you scroll.</p>
       <p>The key to the parallax effect is the CSS property "background attachment". This determines whether, if a
       background image is specified, it should be fixed in the viewport with scrolling or whether it should follow
       the viewport.</p>
+      <p>Below, another image appears between the content blocks as part of the parallax scrolling.</p>
     </div>
     <div class="parallax" id="secondimage"></div>
     <div class="text-content">
       <p>A second content block</p>
+    </div>
+    <div class="parallax" id="thirdimage"></div>
+    <div class="text-content">
+      <p>Third content block</p>
     </div>
   </body>
 </html>
