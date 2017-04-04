@@ -2,6 +2,15 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #666666;
+  margin: 0;
+  padding: 30px 30px;
+}
+
 /*IMAGES FOR PARALLAX*/
 #firstimage {
   background-image: url("../../vendors/images/floodedforest.jpg");
@@ -11,8 +20,6 @@ body {
 }
 
 .parallax {
-
-
   /*Set a Specific height*/
   min-height: 500px;
 
