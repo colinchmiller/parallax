@@ -49,3 +49,7 @@ h1 {
 .text-content p:first-child {
   padding-top: 75px;
 }
+
+#smallsize {
+  height: 200px;
+}
