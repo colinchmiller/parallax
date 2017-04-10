@@ -44,7 +44,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.activeClass {
+.active {
   /*Set a Specific height*/
   min-height: 500px;
 
