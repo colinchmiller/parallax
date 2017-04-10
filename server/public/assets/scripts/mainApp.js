@@ -1,9 +1,8 @@
 var mainApp = angular.module('mainApp', []);
 
 mainApp.controller('MainController', ['$scope', function($scope){
-  console.log("MainController is running");
-
+  $scope.activeClass = true;
   $scope.toggleHeight = function(){
-    console.log("clicking it, bitch!");
+    $scope.activeClass = !scope.activeClass;
   }
 }]);

@@ -44,6 +44,16 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.activeClass {
+  /*Set a Specific height*/
+  min-height: 500px;
+
+  /*Parallax effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .text-content {
   /*correcting for empty bar that appears above content block and below image*/
