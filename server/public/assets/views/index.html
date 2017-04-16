@@ -15,8 +15,8 @@
     <div class="text-content">
       <p>The parallax effect is the displacement of two images' positions achieved by moving them at different rates
       in comparison to the viewer's perspective. This is a popular technique in web development and is also one of the
-      primary techniques of helping to achieve 3D effects in 3D movies (a good example being the opening landscape shot
-      sequence in The Martian).</p>
+      primary techniques of helping to achieve 3D effects in 3D movies (I noticed it pretty dramatically when I was watching
+      the mountains in the opening landscape sequence of "The Martian").</p>
       <p>The above above image is hidden behind this content block as you scroll.</p>
       <p>The key to the parallax effect is the CSS property "background attachment". This determines whether, if a
       background image is specified, it should be fixed in the viewport with scrolling or whether it should follow
@@ -27,13 +27,13 @@
     <div class="text-content" id="smallsize">
       <p>This small content div shows that the image being hidden by the parallax is hidden by all subsequent elements on
         the page, and not just the immediately following element.
-      </p>
+      </p>x
     </div>
-    <div ng-class="{'active': activeClass}" id="thirdimage"></div>
+    <div ng-class="{'active': toggleClass}" id="thirdimage"></div>
     <div class="text-content">
       <p>Also, be sure to set a min-height for your parallax image, or you're going to have a bad day.
       Push the button to toggle the min-height for the swamp-dog image above on or off. Neat!</p>
-      <button class="button" ng-click="toggleHeight()">Button</button>
+      <button class="button" ng-click="toggleHeight()">Toggle Fixed Image Height</button>
       <p>That's the basics of making the parallax effect. Thanks for checking out my example site!</p>
     </div>
   </body>

@@ -1,8 +1,8 @@
 var mainApp = angular.module('mainApp', []);
 
 mainApp.controller('MainController', ['$scope', function($scope){
-  $scope.activeClass = true;
+  $scope.toggleClass = true;
   $scope.toggleHeight = function(){
-    $scope.activeClass = !$scope.activeClass;
+    $scope.toggleClass = !$scope.toggleClass;
   }
 }]);
