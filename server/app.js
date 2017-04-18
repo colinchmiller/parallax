@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT));
 
 app.get('/*', function(req, res){
   var file = req.params[0] || 'assets/views/index.html';
