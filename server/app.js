@@ -3,6 +3,7 @@ var app = express();
 var path = require('path');
 
 app.set('port', (process.env.PORT));
+// || 5000 port setting needed for local hosting and testing
 
 app.get('/*', function(req, res){
   var file = req.params[0] || 'assets/views/index.html';
