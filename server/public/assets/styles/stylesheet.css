@@ -59,7 +59,7 @@ h1 {
   /*correcting for empty bar that appears above content block and below image*/
   margin-top: -3%;
 
-  height: 600px;
+  height: 700px;
   background-color: #666666;
 }
 .text-content p {
