@@ -75,3 +75,7 @@ h1 {
 #smallsize {
   height: 200px;
 }
+
+#bigsize {
+  padding-bottom: 5%;
+}
