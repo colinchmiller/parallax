@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
-app.set('port', (process.env.PORT));
+app.set('port', (process.env.PORT || 5000));
 // || 5000 port setting needed for local hosting and testing
 
 app.get('/*', function(req, res){

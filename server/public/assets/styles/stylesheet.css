@@ -23,7 +23,7 @@ h1 {
   margin: 10px 500px;
 }
 
-/*IMAGES FOR PARALLAX*/
+/*Images for Parallax*/
 #firstimage {
   background-image: url("../../vendors/images/floodedforest.jpg");
 }
@@ -56,10 +56,10 @@ h1 {
 }
 
 .text-content {
-  /*correcting for empty bar that appears above content block and below image*/
+  /*correcting for white bars above and below text content */
   margin-top: -3%;
+  padding-bottom: 3%;
 
-  height: 700px;
   background-color: #666666;
 }
 .text-content p {
@@ -70,12 +70,4 @@ h1 {
 
 .text-content p:first-child {
   padding-top: 75px;
-}
-
-#smallsize {
-  height: 200px;
-}
-
-#bigsize {
-  padding-bottom: 5%;
 }
