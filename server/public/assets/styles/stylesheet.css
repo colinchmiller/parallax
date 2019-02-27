@@ -65,7 +65,7 @@ h1 {
 .text-content p {
   color: #ffffff;
   font-size: 30px;
-  margin: 25px 75px;
+  margin: 0px 75px;
 }
 
 .text-content p:first-child {
