@@ -3,25 +3,34 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 3.5rem;
   text-align: center;
   color: #ffffff;
   background-color: #666666;
   margin: 0;
-  padding: 30px 30px;
+  padding: 1.5em;
 }
 
 .button {
   background-color: #ffffff;
-  border: none;
+  border: 2px solid #666666;
   color: #666666;
-  padding: 20px 20px;
+  padding: 1.2em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 10px 40%;
+  font-size: 1rem;
+  margin: 1.2em 40%;
+  outline: none;
 }
+
+.button:hover {
+  background-color: #666666;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+
 
 /*Images for Parallax*/
 #firstimage {
@@ -64,10 +73,10 @@ h1 {
 }
 .text-content p {
   color: #ffffff;
-  font-size: 30px;
-  margin: 0px 75px;
+  font-size: 2rem;
+  margin: 0 3.5em;
 }
 
 .text-content p:first-child {
-  padding-top: 75px;
+  padding-top: 2em;
 }
